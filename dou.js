@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $.ajax({
         dataType: "json",
-        url: '/public/df.json',
+        url: '/df.json',
         success: function(data){
             $.each(data, function (index, element) {
                 // console.log(element['chapter']);

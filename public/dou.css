@@ -1,0 +1,29 @@
+.jbhead{
+    background-image: url("/public/img/laozi.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:cover !important;
+    /* background-position: center; */
+    
+}
+.chapter{
+    font-size: 2rem;
+}
+.whitetitle {
+    display: inline;
+    font-size: 1.5rem;
+}
+.medititle {
+    display: inline;
+    font-size: 1.5rem;
+}
+.whitetitle:hover {
+    opacity: 0.7;
+}
+.medititle:hover {
+    opacity: 0.7;
+}
+.show{
+    /* display: none */
+    visibility:hidden;
+}
